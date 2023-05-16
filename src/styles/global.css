@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F7ECDE;
+  /* color: #F7F7F7;; */
+  min-height:100vh ;
+  font-family: sans-serif;
+}
+
+.title{
+  margin: auto;
+  width: 258px;
+  margin-top: 50px;
+  line-height: 90%;
+  color: #E9C597;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  height: 58px;
+}
