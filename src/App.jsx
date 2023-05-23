@@ -14,11 +14,14 @@ function App() {
   };
 
   return (
-    <div className='theme'>
+    <div className={`app ${theme}`}>
+      <div className="icon" onClick={toggleTheme}>
+      {isDarkMode ?  <img src={sunIcon} alt="icon of a sun"/> :  <img src={moonIcon} alt="icon of a moon"  />}
+    </div>
     <div >
     <h1 className="title">Personal Task Manager</h1>
-   
-  
+
+     
       <TasksSection/>
     </div>
       
