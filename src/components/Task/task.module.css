@@ -2,32 +2,53 @@
     background: #54BAB9;
     border-radius: 10px;
     font-size: 20px;
+    width: 650px;
+    margin: 2px auto;
     padding: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    right: 50px;
-    margin: 8px 0;
+}
+
+.content{
+  width: 540px;
 }
 
 .checkContainer {
     width: 18px;
     height: 18px;
-    background: none;
     border: none;
+    border-radius: 999px;
     cursor: pointer;
   }
   .checkContainer div {
     width: 100%;
     height: 100%;
     border-radius: 999px;
-    border: 2px solid #022033;
+    border: 1px solid #05ee81;
+    background-color: none;
+  }
+
+  .check{
+    background-color: #05ee81;
+    border: none;
+    border-radius: 999px;
   }
   
-  .deleteButton {
+  .deleteButton,.editButton {
     background: none;
     border: none;
     color: #808080;
     cursor: pointer;
   }  
+
+  .title{
+    margin: 0px auto;
+    width: 150px;
+    padding: 0px 5px;
+  }
+
+  .title{
+    padding: 10px;
+  }

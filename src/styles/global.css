@@ -6,19 +6,33 @@
 
 body{
   background-color: #F7ECDE;
-  /* color: #F7F7F7;; */
-  min-height:90vh ;
+  color: #F7F7F7;;
+  min-height:100vh ;
   font-family: sans-serif;
 }
 
 .title{
-  margin: auto;
+  margin: 20px auto ;
   width: 258px;
-  margin-top: 50px;
   line-height: 90%;
+  padding: 5px;
   color: #E9C597;
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
-  height: 58px;
+  height: 90px;
+}
+.icon{
+  background-color: #354259;
+  color: #F7F7F7;
+  width: 30px;
+  position: absolute;
+  top: 2px;
+  right: 20px;
+}
+.app{
+  height: 100%;
+}
+.app.dark{
+  background-color: black;
 }
